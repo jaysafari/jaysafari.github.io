@@ -114,7 +114,12 @@ h2 {
   height: 160px;
   position: relative;
 }
-
+.one img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .two {
   width: 160px;
   height: 160px;
