@@ -720,7 +720,6 @@ This paper combines state-of-the-art machine learning advancements with new visu
 function openPhotoCard(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("photoModal").style.display = "block";
-  // Optional: Set caption from the paper title or alt text
   const paperTitle = element.closest('tr').querySelector('.papertitle').innerText;
   document.getElementById("caption").innerHTML = paperTitle;
 }
