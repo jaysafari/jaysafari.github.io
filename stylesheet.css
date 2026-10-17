@@ -38,7 +38,7 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .photo { width: 210px; height: 210px; border-radius: 50%; object-fit: cover; }
 
 h2 { font-size: 24px; font-weight: 700; margin: 64px 0 14px; letter-spacing: -0.005em; }
-.lead { max-width: 70ch; }
+.lead { max-width: 100ch; }
 
 /* ---------- publications ---------- */
 .legend { color: var(--soft); margin-top: 10px; }
